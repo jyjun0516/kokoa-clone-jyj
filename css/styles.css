@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+@import "reset.css";
+@import "status-bar.css";
+body {
+  font-family: "Jua", sans-serif;
+}
+
+.welcome-header {
+  margin: 120px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.welcome-header__title {
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.welcome-header__text {
+  opacity: 0.7;
+  font-size: 28px;
+}
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+#login-form input {
+  padding: 30px 0px;
+  border: none;
+  font-family: "Jua", sans-serif;
+  font-size: 30px;
+}
+#login-form input:not([type="submit"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease-in-out;
+}
+#login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+#login-form input:focus {
+  border-color: chocolate;
+}
+#login-form input[type="submit"] {
+  background-color: chocolate;
+  cursor: pointer;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-size: 30px;
+  padding: 24px;
+  border-radius: 8px;
+}
+#login-form a {
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
