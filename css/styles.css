@@ -7,13 +7,23 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/badge.css";
+@import "components/dot.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
 
 /*screens*/
 @import "screens/login.css";
 @import "screens/variables.css";
 @import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+
 body {
   color: rgba(0, 0, 0, 0.75);
   font-family: "Jua", sans-serif;
-  height: 1000vh;
+}
+.main-screen {
+  padding: 100px var(--horizontal-space);
 }
