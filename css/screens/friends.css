@@ -38,13 +38,13 @@
   background-color: chocolate;
   position: absolute;
   height: 100vh;
-  width: 100vw;
+  width: 97vw;
   top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 135px;
   color: white;
-  animation: hideSplashScreen 0.3s ease-in-out forwards;
-  animation-delay: 1.5s;
+  animation: hideSplashScreen 0.2s ease-in-out forwards;
+  animation-delay: 1s;
 }
